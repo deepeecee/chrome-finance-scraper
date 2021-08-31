@@ -1,0 +1,14 @@
+button {
+  border: none;
+  border-radius: 8px;
+  font-family: "Google Sans", "Helvetica Neue", sans-serif;
+  height: 30px;
+  margin: 10px;
+  outline: none;
+  width: 60px;
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
